@@ -1,0 +1,21 @@
+{
+    "description": "Allow to use snake-case relations names in attributes. Based on [troelskn/laravel-fillable-relations](https://github.com/troelskn/laravel-fillable-relations).",
+    "name": "likemusic/laravel-fillable-relations-patch",
+    "type": "library",
+    "require": {
+        "troelskn/laravel-fillable-relations": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerij Ivashchenko",
+            "email": "likemusicdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Likemusic\\Laravel\\FillableRelationsPatch\\": "src"
+        }
+    }
+}
